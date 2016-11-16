@@ -1,6 +1,6 @@
 .navbar-primary-image{
   padding: 0.3em;
-  margin-right: 5em;
+  margin-right: 4.5em;
 }
 
 .navbar-primary-image>img{
@@ -14,4 +14,12 @@
 
 .navbar-image>img{
   height: 100%;
+}
+
+.navbar{
+  margin-bottom: 0px;
+}
+
+.carousel-inner img{
+  width: 100%;
 }
