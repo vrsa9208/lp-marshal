@@ -20,6 +20,21 @@
   margin-bottom: 0px;
 }
 
-.carousel-inner img{
-  width: 100%;
+.big-button-container{
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.big-green-button{
+  margin-top: 1.5em;
+  height: 2.5em;
+  font-size: 2em;
+}
+
+.section-divider>div{
+  margin-left: 13em;
+  margin-right: 13em;
+  margin-top: 2em;
+  background: grey;
+  height: 0.13em;
 }
