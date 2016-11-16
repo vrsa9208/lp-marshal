@@ -1,0 +1,17 @@
+.navbar-primary-image{
+  padding: 0.3em;
+  margin-right: 5em;
+}
+
+.navbar-primary-image>img{
+  height: 100%;
+}
+
+.navbar-image{
+  padding: 0.3em;
+  margin-right: 0.5em;
+}
+
+.navbar-image>img{
+  height: 100%;
+}
