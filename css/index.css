@@ -31,10 +31,16 @@
   font-size: 2em;
 }
 
-.section-divider>div{
+.section-divider div.inside{
   margin-left: 13em;
   margin-right: 13em;
-  margin-top: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
   background: grey;
   height: 0.13em;
+}
+
+.bordered{
+  border: blue solid;
+  width: 95%;
 }
