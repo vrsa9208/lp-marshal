@@ -41,7 +41,7 @@
             <button type="submit" class="btn btn-success btn-green">INICIAR SESIÓN</button>
           </form>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">IDIOMA</a></li>
+            <li><a>IDIOMA</a></li>
             <a class="navbar-brand navbar-image" href="#">
               <img alt="Brand" src="https://placeholdit.imgix.net/~text?txtsize=28&txt=300%C3%97300&w=300&h=300">
             </a>
@@ -56,22 +56,58 @@
 
   <section class="container main-container">
     <div class="row">
-      <div class="col-lg-5">
-        <img src="https://placeholdit.imgix.net/~text?txtsize=55&txt=600%C3%97350&w=600&h=350" class="img-responsive" alt="Responsive image">
-        <div>
-          Permite pagar y cobrar de forma simple
-          <br/>
-          e instantánea a todo el mercado
-          <br/>
-          no-bancarizado
+      <div class="col-md-5">
+        <div class="descriptor">
+        <img src="assets/img/logo_principal.png" class="img-responsive" alt="Responsive image">
+        <div class="paragraph text-blue">
+            <p class="small">Permite pagar y cobrar de forma</p> 
+            <p class="big bold">simple</p>
+            <p class="small">e</p> 
+            <p class="big bold">instantánea</p> 
+            <p class="small">a todo el mercado</p>
+            <p class="big bold">no-bancarizado.</p>
         </div>
         <div class="container-fluid big-button-container">
-          <button type="button" class="btn btn-success col-lg-12 big-green-button">Iniciar Sesión</button>
+          <button type="button" class="btn btn-success col-lg-12 big-green-button">Iniciar Sesión  
+            <span class="glyphicon glyphicon-chevron-right"></span><span class="glyphicon glyphicon-chevron-right"></span>
+          </button>
+        </div>
+        </div>
+      </div>
+      <div class="col-md-7">
+        
+        <div id="mainCarousel" class="carousel descriptor" data-interval="300" data-ride="carousel" data-pause="hover" data-wrap="true">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="https://placeholdit.imgix.net/~text?txtsize=60&txt=640%C3%97500&w=640&h=500" class="img-responsive" alt="Responsive image">
+            </div>
+
+            <div class="item">
+              <img src="https://placeholdit.imgix.net/~text?txtsize=60&txt=640%C3%97500&w=640&h=500" class="img-responsive" alt="Responsive image">
+            </div>
+
+            <div class="item">
+              <img src="https://placeholdit.imgix.net/~text?txtsize=60&txt=640%C3%97500&w=640&h=500" class="img-responsive" alt="Responsive image">
+            </div>
+
+            <div class="item">
+              <img src="https://placeholdit.imgix.net/~text?txtsize=60&txt=640%C3%97500&w=640&h=500" class="img-responsive" alt="Responsive image">
+            </div>
+          </div>
         </div>
 
-      </div>
-      <div class="col-lg-7">
-        <img src="https://placeholdit.imgix.net/~text?txtsize=60&txt=640%C3%97500&w=640&h=500" class="img-responsive" alt="Responsive image">
+
+
+
       </div>
     </div>
   </section>
@@ -83,32 +119,53 @@
 
   <section class="container">
     <div class="row">
-      <div class="col-lg-6 vertical-divider-right">
-        <img src="https://placeholdit.imgix.net/~text?txtsize=55&txt=640%C3%97200&w=640&h=200" class="img-responsive" alt="Responsive image">
-        <h4>Convierte al 100% de los usuarios en clientes</h4>
-        <ul>
-          <li>Opcion 1</li>
-          <li>Opcion 2</li>
-          <li>Opcion 3</li>
-          <li>Opcion 4</li>
-        </ul>
-        <div class="container-fluid big-button-container">
-          <button type="button" class="btn btn-primary col-lg-12 big-blue-button">Iniciar Sesión</button>
+      <div class="col-lg-6 vertical-divider-right" style="padding-right:60px;">
+        <div class="row">
+          <div class="col-md-8" style="padding-right:60px">
+            <div class="row text-center">
+                <h4 class="xxl text-gray">COBRAR</h4>
+            </div>
+              <button type="button" class="btn btn-primary col-lg-12 big-blue-button">Adherirse</button>    
+          </div>
+          <div class="col-md-4">
+            <img src="https://placeholdit.imgix.net/~text?txtsize=55&txt=200%C3%97220&w=200&h=220" class="img-responsive" alt="Responsive image">
+          </div>
         </div>
+        <h4 class="text-blue-light bold">Convierte al 100% de los usuarios en clientes</h4>
+        <ul style="list-style-type:none;padding:0px;" class="text-gray">
+          <li>> Cobrar mediante códigos pre-pagos o monedero.</li>
+          <li>> Validación Instantánea de los pagos.</li>
+          <li>> Adhesión gratuita, integración técnica simple.</li>
+          <li>> Miles de puntos de pago en cada país.</li>
+        </ul>
+        
+          <button href="#" class="btn btn-primary col-md-12 big-blue-button" style="white-space: normal !important; word-wrap:break-word;">
+            Lorem ipsum dolor sit amet, <br/> 
+            consectetur adipiscing elit. 
+          </button>
+        
       </div>
       
-      <div class="col-lg-6">
-        <img src="https://placeholdit.imgix.net/~text?txtsize=55&txt=640%C3%97200&w=640&h=200" class="img-responsive" alt="Responsive image">
-        <h4>Convierte al 100% de los usuarios en clientes</h4>
-        <ul>
-          <li>Opcion 1</li>
-          <li>Opcion 2</li>
-          <li>Opcion 3</li>
-          <li>Opcion 4</li>
-        </ul>
-        <div class="container-fluid big-button-container">
-          <button type="button" class="btn btn-success col-lg-12 big-green-button">Iniciar Sesión</button>
-        </div>
+      <div class="col-lg-6" style="padding-left:70px;">
+        <div class="row">
+            <div class="col-md-4">
+              <img src="https://placeholdit.imgix.net/~text?txtsize=55&txt=200%C3%97220&w=200&h=220" class="img-responsive" alt="Responsive image">
+            </div>
+            <div class="col-md-8" style="padding-right:60px">
+              <div class="row text-center">
+                  <h4 class="xxl text-gray">PAGAR</h4>
+              </div>
+                <button type="button" class="btn btn-primary col-lg-12 big-green-button">Registrarse</button>    
+            </div>
+          </div>
+          <h4 class="text-green bold">Permite a las personas pagar en internet.</h4>
+          <ul style="list-style-type:none; padding:0px;" class="text-gray">
+            <li>> Cobrar mediante códigos pre-pagos o monedero.</li>
+            <li>> Validación Instantánea de los pagos.</li>
+            <li>> Adhesión gratuita, integración técnica simple.</li>
+            <li>> Miles de puntos de pago en cada país.</li>
+          </ul>
+            <button type="button" class="btn btn-primary col-lg-12 big-green-button"></button>
       </div>
     </div>
   </section>
@@ -521,5 +578,16 @@
   <script src="./jquery/jquery-3.1.1.min.js"></script>
   <script src="./bootstrap/js/bootstrap.min.js"></script>
 
+
+  <script type="text/javascript">
+    $('#mainCarousel').hover(
+        function() {
+            $(this).carousel('pause');
+        },
+        function() {
+            $(this).carousel('cycle');
+        }
+    );
+  </script>
 </body>
 </html>

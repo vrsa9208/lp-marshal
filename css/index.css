@@ -1,3 +1,14 @@
+ @font-face { font-family: lato; src: url('../bootstrap/fonts/Lato-Regular.ttf'); } 
+ @font-face { font-family: lato-light; src: url('../bootstrap/fonts/Lato-Light.ttf'); } 
+ @font-face { font-family: lato-bold; src: url('../bootstrap/fonts/Lato-Bold.ttf');}
+ @font-face { font-family: lato-italic; font-weight: bold; src: url('../bootstrap/fonts/Lato-Italic.ttf');}
+ @font-face { font-family: lato-italic-light; font-weight: bold; src: url('../bootstrap/fonts/Lato-LightItalic.ttf');}
+
+html *
+{ 
+   font-family: lato;
+}
+
 .navbar-primary-image{
   padding: 0.3em;
   margin-right: 4.5em;
@@ -18,6 +29,7 @@
 
 .navbar{
   margin-bottom: 0px;
+  font-family: lato;
 }
 
 .navbar-default {
@@ -33,6 +45,24 @@
   height: 15px;
   margin-top: 15px;
   border-right: 1px solid #FFF;
+}
+
+p {float: left; margin-top: 5px; margin-right: 5px; font-family: lato;}
+.small {font-size: 140%; line-height:20%; margin-top: 9px;}
+.big {font-size: 180%; line-height:20%; margin-top: 7px;}
+.italic {font-family: lato-italic}
+.bold {font-family: lato-bold;}
+.italic-light {font-family: lato-italic-light}
+h4.bold {font-family: lato-bold;}
+h4.xxl {font-family: lato-light; font-size: 400%; line-height:20%; margin-top: 7px;}
+
+.text-blue {color: #243E82}
+.text-blue-light {color: #2488C9}
+.text-green {color: #59B71C}
+.text-gray {color: #6B6B6B; font-family: lato;}
+
+li {
+  margin-bottom: 6px;
 }
 
 .container {
@@ -57,6 +87,7 @@
   font-size: 2em;
   background-color: #59B71C;
   border: 0;
+  font-family: lato-light;
 }
 
 .big-blue-button{
@@ -65,6 +96,7 @@
   font-size: 2em;
   background-color: #2488C9;
   border: 0;
+  font-family: lato-light;
 }
 
 .btn-green{
@@ -83,8 +115,8 @@
   margin-left: 13em;
   margin-right: 13em;
   margin-top: 1em;
-  margin-bottom: 1em;
-  background: gray;
+  margin-bottom: 4em;
+  background: rgba(175,175,175, .7);
   height: 0.13em;
 }
 
@@ -139,6 +171,15 @@
   padding-right: 60px;
 }
 
+.descriptor{
+  padding-left: 50px;
+}
+
+.descriptor div.paragraph{
+  text-align: justify;
+  padding: 0px;
+  margin-top: 15px;
+}
 
 .panel-heading .accordion-toggle:after {
     /* symbol for "opening" panels */
