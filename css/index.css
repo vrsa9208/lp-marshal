@@ -52,14 +52,18 @@ p {float: left; margin-top: 5px; margin-right: 5px; font-family: lato;}
 .big {font-size: 180%; line-height:20%; margin-top: 7px;}
 .italic {font-family: lato-italic}
 .bold {font-family: lato-bold;}
+.light {font-family: lato-light;}
 .italic-light {font-family: lato-italic-light}
+h1.light {font-family: lato-light;}
 h4.bold {font-family: lato-bold;}
 h4.xxl {font-family: lato-light; font-size: 400%; line-height:20%; margin-top: 7px;}
 
 .text-blue {color: #243E82}
 .text-blue-light {color: #2488C9}
 .text-green {color: #59B71C}
-.text-gray {color: #6B6B6B; font-family: lato;}
+.text-green-light {color: #59B71C; font-family: lato-light;}
+.text-gray {color: #6B6B6B; font-family: lato-;}
+.text-gray-light {color: #E4E9F4; font-family: lato;}
 
 li {
   margin-bottom: 6px;
@@ -83,20 +87,20 @@ li {
 
 .big-green-button{
   margin-top: 1.5em;
-  height: 2.5em;
   font-size: 2em;
   background-color: #59B71C;
   border: 0;
   font-family: lato-light;
+  border-radius: 8px; 
 }
 
 .big-blue-button{
   margin-top: 1.5em;
-  height: 2.5em;
   font-size: 2em;
   background-color: #2488C9;
   border: 0;
   font-family: lato-light;
+  border-radius: 8px; 
 }
 
 .btn-green{
